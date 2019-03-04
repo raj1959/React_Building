@@ -1,0 +1,278 @@
+.nav{
+  background: transparent;
+  padding: 20px;
+
+}
+
+.hr{
+  border-width: 2px;
+  border-color: palegreen;
+}
+
+
+#facte {
+  background: url("https://images.unsplash.com/photo-1504700610630-ac6aba3536d3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80") center top no-repeat fixed;
+  background-size: cover;
+  padding: 40px 0 ;
+  position: relative;
+  }
+#facte::before {
+content: '';
+position: absolute;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+background: rgba(0, 0, 0, 0.78);
+z-index: 0;
+}
+  
+  
+  #facte .container {
+  position: relative;
+  z-index: 10;
+  }
+
+  /* Image list Card  */
+
+.card {
+  position: relative;
+  border: 0px solid black;
+  border-radius: 0px;
+  background: rgb(0, 0, 0);
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  
+}
+
+.card:hover .image {
+  opacity: 0.3;
+  z-index: 100;
+
+}
+
+.card:hover .middle {
+  opacity: 1;
+}
+.p{
+
+  color: white;
+  font-weight: bolder;
+}
+
+/*  Movie Details Section */
+.de{
+  margin-top: 60px;
+}
+.df{
+  color: palegreen;
+}
+.star{
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+
+/* For Model Popup */
+
+#fact11 {
+  background: url("https://assets.vogue.com/photos/5bf4664e090f622d55116ce1/master/pass/00-promo-image-the-tulip-skyscraper-building-london.jpg") center top no-repeat fixed;
+  background-size: cover;
+  color: white;
+  position: relative;
+  border: 2px solid red;
+  border-radius: 6px;
+  }
+
+  #fact11::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(5, 5, 5, 0.78);
+  z-index: 0;
+  }
+  
+  
+  #fact11 .container {
+  position: relative;
+  z-index: 100;
+  }
+  
+/* For Index */
+
+#fact1 {
+  background: url("https://assets.vogue.com/photos/5bf4664e090f622d55116ce1/master/pass/00-promo-image-the-tulip-skyscraper-building-london.jpg") center top no-repeat fixed;
+  background-size: cover;
+
+  position: relative;
+  }
+
+  #fact1::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(5, 5, 5, 0.78);
+  z-index: 0;
+  }
+  
+  
+  #fact1 .container {
+  position: relative;
+  z-index: 100;
+  }
+  
+
+
+
+/* For Index Bottom Page */
+
+#fact2 {
+background: url("http://www.greenrealestatelaw.com/wp-content/uploads/2011/05/Freedom-Tower.jpg") center top no-repeat fixed;
+background-size: cover;
+padding: 40px 0 ;
+position: relative;
+}
+
+#fact2::before {
+content: '';
+position: absolute;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+background: rgba(5, 5, 5, 0.78);
+z-index: 0;
+}
+
+
+#fact2 .container {
+position: relative;
+z-index: 100;
+}
+
+/* For About Page */
+
+
+#fact22 {
+background: url(" https://abs.green/files/pics/csm_Heydar-Aliyev-Center-6-cropped_web_v2_efbc456ba1.jpg") center top no-repeat fixed;
+background-size: cover;
+padding: 40px 0 ;
+position: relative;
+}
+
+#fact22::before {
+content: '';
+position: absolute;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+background: rgba(5, 5, 5, 0.78);
+z-index: 0;
+}
+
+
+#fact22 .container {
+position: relative;
+z-index: 100;
+}
+
+
+.product-new-label{
+  color:#fff;
+  font-size:21px;
+  font-weight:800;
+  line-height:40px;
+  height: 43px;
+  width: 120px;
+  position:absolute;
+  left:8px;
+  text-align: center;
+  top:8px;
+  border-radius: 5px;
+  transition:all .3s;
+  
+}
+
+#fact {
+  background: url("https://static.dezeen.com/uploads/2017/08/clifton-house-project-architecture_dezeen_hero-1.jpg") center top no-repeat fixed;
+  background-size: cover;
+  padding: 40px 0 ;
+  position: relative;
+  }
+  #fact::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(5, 5, 5, 0.78);
+  z-index: 0;
+  }
+  
+  
+  #fact .container {
+  position: relative;
+  z-index: 100;
+  }
+
+.text-info{
+  font-weight: bold;
+}
+
+.text-dark{
+  font-weight: bold;
+}
+
+
+
+
+#lightbox .modal-content {
+  display: inline-block;
+  text-align: center;   
+}
+
+#lightbox .close {
+  opacity: 1;
+  color: rgb(255, 255, 255);
+  background-color: rgb(25, 25, 25);
+  padding: 5px 8px;
+  border-radius: 30px;
+  border: 2px solid rgb(255, 255, 255);
+  position: absolute;
+  top: -15px;
+  right: -55px;
+  
+  z-index:1032;
+}
+
+
+
+
+
